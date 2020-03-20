@@ -1,0 +1,77 @@
+{
+  "jquery": {
+    "src": [
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/jquery/dist/jquery.min.map"
+    ],
+    "dest": "assets/vendor/jquery/",
+    "js_link": "assets/vendor/jquery/jquery.min.js"
+  },
+
+  "bootstrap": {
+    "src": "./node_modules/bootstrap/dist/**/*",
+    "dest": "assets/vendor/bootstrap/",
+    "css_link": "assets/vendor/bootstrap/css/bootstrap.min.css",
+    "js_link": "assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
+  },
+
+  "jquery.easing": {
+    "src": "./node_modules/jquery.easing/jquery.easing.min.js",
+    "dest": "assets/vendor/jquery.easing/",
+    "js_link": "assets/vendor/jquery.easing/jquery.easing.min.js"
+  },
+
+  "php-email-form": {
+    "js_link": "assets/vendor/php-email-form/validate.js"
+  },
+
+  "wow": {
+    "js_link": "assets/vendor/wow/wow.min.js"
+  },
+
+  "animate.css": {
+    "src": "./node_modules/animate.css/*.css",
+    "dest": "assets/vendor/animate.css/",
+    "css_link": "assets/vendor/animate.css/animate.min.css"
+  },
+  
+  "venobox": {
+    "src": "./node_modules/venobox/venobox/*",
+    "dest": "assets/vendor/venobox/",
+    "css_link": "assets/vendor/venobox/venobox.css",
+    "js_link": "assets/vendor/venobox/venobox.min.js"
+  },
+  
+  "font-awesome": {
+    "srcs": [
+      {
+        "src": "./node_modules/font-awesome/css/*",
+        "dest": "assets/vendor/font-awesome/css/"
+      },
+      {
+        "src": "./node_modules/font-awesome/fonts/*",
+        "dest": "assets/vendor/font-awesome/fonts/"
+      }
+    ],
+    "css_link": "assets/vendor/font-awesome/css/font-awesome.min.css"
+  },
+
+  "owl.carousel": {
+    "src": "./node_modules/owl.carousel/dist/**/*",
+    "dest": "assets/vendor/owl.carousel/",
+    "css_link": "assets/vendor/owl.carousel/assets/owl.carousel.min.css",
+    "js_link": "assets/vendor/owl.carousel/owl.carousel.min.js"
+  }, 
+
+  "superfish": {
+    "src": "./node_modules/superfish/dist/js/superfish.min.js",
+    "dest": "assets/vendor/superfish/",
+    "js_link": "assets/vendor/superfish/superfish.min.js"
+  }, 
+
+  "hoverIntent": {
+    "src": "./node_modules/superfish/dist/js/hoverIntent.js",
+    "dest": "assets/vendor/hoverIntent/",
+    "js_link": "assets/vendor/hoverIntent/hoverIntent.js"
+  }
+}

@@ -1,0 +1,42 @@
+{% extends "template.html" %}
+
+{% set page ='home' %}
+
+{% block meta %}
+  <title>TheEvent Bootstrap Template - Index</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+  {% include "parts/intro.html" %}
+
+  <main id="main">
+
+    {% include "parts/about-section.html" %}
+
+    {% include "parts/speakers-section.html" %}
+
+    {% include "parts/schedule-section.html" %}
+
+    {% include "parts/venue-section.html" %}
+
+
+    {% include "parts/hotels-section.html" %}
+
+    {% include "parts/gallery-section.html" %}
+
+    {% include "parts/sponsors-section.html" %}
+
+    {% include "parts/faq-section.html" %}
+
+    {% include "parts/subscribe-section.html" %}
+    
+    {% include "parts/buy-tickets-section.html" %}
+
+    {% include "parts/contact-section.html" %}
+
+  </main><!-- End #main -->
+
+{% endblock %}
