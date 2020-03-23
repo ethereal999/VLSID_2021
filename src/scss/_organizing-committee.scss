@@ -1,0 +1,139 @@
+/*--------------------------------------------------------------
+# Organizing Committee
+--------------------------------------------------------------*/
+
+#organizing-committee {
+  padding: 60px 0 30px 0;
+  .carousel-indicators{
+   bottom: -1rem;
+  }
+  .carousel-control-next-icon{
+    background-image: url("../img/arrow-right.png");
+  }
+  .carousel-control-prev-icon{
+    background-image: url("../img/arrow-left.jpg");
+  }
+  .carousel-control-next {
+    @media (max-width: 991px) {
+      right: -5%;
+    }
+
+  }
+  .carousel-control-prev {
+    @media (max-width: 991px) {
+      left: -5%;
+    }
+
+  }
+  .carousel-indicators li{
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  .committee-sub-header{
+    margin: auto;
+    text-align: center;
+  }
+  .committee-sub-header h3{
+    color: $accent-color;
+    font-weight: 500;
+  }
+  .img-fluid{
+    max-width: 250px;
+  }
+  img{
+    display: block;
+    margin: auto;
+  }
+  .speaker {
+    position: relative;
+    margin-bottom: 30px;
+
+    .details {
+      position: relative;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding-top: 18px;
+
+      h3 {
+        color: #000000;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      p {
+        color: #000000;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-style: italic;
+      }
+
+      .social {
+        height: 30px;
+      }
+
+      a {
+        color: #000000;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+      .email {
+        color: $accent-color;
+      }
+    }
+
+
+  }
+
+}
+
+
+#speakers-details {
+  padding: 60px 0;
+
+  .details {
+
+    h2 {
+      color: lighten($heading-color, 15%);
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+
+    .social {
+      margin-bottom: 15px;
+      a {
+        background: lighten($heading-color, 87%);
+        color: lighten($heading-color, 15%);
+        line-height: 1;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        padding-top: 9px;
+
+        &:hover {
+          background: $accent-color;
+          color: #fff;
+        }
+
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+
+    p {
+      color: lighten($heading-color, 15%);
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+
+  }
+}

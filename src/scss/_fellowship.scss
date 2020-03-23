@@ -1,0 +1,209 @@
+
+/*--------------------------------------------------------------
+# Fellowship Section
+--------------------------------------------------------------*/
+#fellowship {
+
+}
+
+.aboutbtn {
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #accent-color;
+    animation-delay: 0.8s;
+    border: 2px solid $accent-color;
+
+    &:hover {
+      background: $accent-color;
+      color: #fff;
+      border: 2px solid $heading-color;
+    }
+  }
+.btnf {
+       font-family: $heading-font;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    color: #fff;
+    animation-delay: 0.8s;
+    background: $accent-color;
+    border: 2px solid $heading-color;
+
+    &:hover {
+      background: #fff;
+      color: $accent-color;
+      border: 2px solid $accent-color;
+    }
+    }
+
+ .details_f {
+
+    h2 {
+      color: lighten($heading-color, 15%);
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+
+
+    p {
+      color: lighten(#333333, 10%);
+      font-size: 25px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+
+
+  }
+
+  .list-group{
+
+   li {
+      color: lighten(#333333, 10%);
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+      a {
+
+      font-size: 19px;
+      margin-bottom: 10px;
+       font-weight: 600;
+    }
+  }
+    .list-group-item{
+
+   span{
+    color: lighten(green, 8%);
+      font-size: 23px;
+      font-weight: 700;
+      margin-bottom: 5px;
+   }
+  }
+
+.brk-btn {
+  position: relative;
+  background: none;
+  color: lighten(#333333, 10%);
+   font-size: 25px;
+      margin-bottom: 10px;
+      text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0.1em solid $heading-color;
+  padding: 0.5em 1em;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: red;
+    height: 0.3em;
+    right: 20%;
+    top: -0.21em;
+    transform: skewX(-45deg);
+    -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10%;
+    background: red;
+    height: 0.3em;
+    left: 20%;
+    bottom: -0.25em;
+    transform: skewX(45deg);
+    -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  &:hover {
+    &::before {
+      right: 80%;
+    }
+    &::after {
+      left: 80%;
+    }
+  }
+}
+
+
+.section-header-f {
+  margin-bottom: 60px;
+  position: relative;
+  padding-bottom: 20px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background: $accent-color;
+    bottom: 0;
+    left: calc(52% - 70px);
+  }
+
+  h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+        line-height: 2;
+  }
+  h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+        line-height: 2;
+  }
+ h4 {
+    font-size: 20px;
+
+    text-align: center;
+    font-weight: 600;
+
+    margin-bottom: 0px;
+
+  }
+  p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: lighten($text-color, 40%);
+  }
+
+}
+
+.card{
+ li{
+  color: lighten(#333333, 10%);
+      font-size: 20px;
+      margin-bottom: 10px;
+
+ }
+}

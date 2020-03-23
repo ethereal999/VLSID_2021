@@ -13,7 +13,7 @@
   @media (min-width: 1024px) {
     background-attachment: fixed;
   }
- 
+
   &:before {
     content: "";
     background: rgba($heading-color, 0.8);
@@ -47,7 +47,7 @@
     font-size: 56px;
     font-weight: 600;
     text-transform: uppercase;
-    
+
     span {
       color: $accent-color;
     }
