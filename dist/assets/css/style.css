@@ -2209,3 +2209,67 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   margin-bottom: 10px;
 }
+
+/*--------------------------------------------------------------
+# Schedule Section
+--------------------------------------------------------------*/
+#visa {
+  padding: 60px 0 60px 0;
+}
+
+#visa .brk-btn {
+  font-size: 22px;
+}
+
+#visa .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#visa .schedule-item:hover {
+  background-color: #fff;
+}
+
+#visa .schedule-item li {
+  font-style: italic;
+  color: #19328e;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#visa .schedule-item h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#visa .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#visa .schedule-item h5 {
+  font-style: italic;
+  color: #19328e;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+#visa .schedule-item h5 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 21px;
+}
+
+#visa .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
