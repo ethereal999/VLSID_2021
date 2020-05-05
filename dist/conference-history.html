@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>VLSID-Conference History</title>
-  <meta content="" name="descriptison">
+  <title>Conference History - Embedded & VLSI Design Conference</title>
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.jpg" rel="icon">
+  <!--  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -25,6 +25,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- jQuery linked here -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
   <!-- =======================================================
   * Template Name: TheEvent - v2.0.0
@@ -34,166 +36,241 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class="loading">
+  <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <!-- Change class .modal-sm to change the size of the modal -->
+    <div class="modal-dialog modal-lg " role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div id="update">
+            <div class="section-with-bg">
+              <div class="container wow fadeInUp">
+                <div class="section-header">
+                  <h2>Latest Updates<span> <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button></span></h2>
+                  <p>Here is our latest new added features</p>
+                </div>
+
+                <div class="tab-content row justify-content-center">
+
+                  <!-- Schdule Day 1 -->
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade show active">
+
+                    <div class="row schedule-item">
+                      <div class="col-md-10">
+                        <h4><a href="call-for-papers.html"> Call for Papers</a></h4>
+                        <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-10">
+                        <h4><a href="organizing-committee.html"> Organising Commitee</a></h4>
+                        <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-10">
+                        <h4><a href="venue.html"> Venue</a></h4>
+                        <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-10">
+                        <h4><a href="conference-history.html"> Conference History</a></h4>
+                        <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-10">
+                        <h4><a href=""> Registration</a></h4>
+                        <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!-- End Schdule Day 1 -->
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading" class="loader mx-auto text-center">
+    <img id="loading-image" class="img-fluid mx-auto text-center" src="assets/img/loader.gif" alt="Loading..." />
+  </div>
+  <style type="text/css">
+    body,
+    html {
+      height: 100%;
+    }
+
+    .loading {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    #loading {
+      width: 100%;
+      height: 100%;
+      z-index: 999999;
+      position: absolute;
+      top: 0;
+      background-color: rgb(35, 31, 32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center
+    }
+
+    #loading-image {
+      z-index: 9999999;
+
+    }
+  </style>
+
+  <script type="text/javascript">
+    $(window).on("load", function() {
+      $(".loader").fadeOut("slow", function() {
+        $('body').removeClass('loading');
+      });
+    });
+  </script>
+
+  <!-- Loader ends here-->
 
   <!-- ======= Header ======= -->
   <header id="header" class="header-fixed">
     <div class="container">
-
       <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!--       <h1><a href="#intro">The<span>Event</span></a></h1>-->
-        <!--      <a href="../index.html" class="scrollto"><img src="../assets/img/logo.png" alt="" title=""></a>-->
+        <a href="index.html"><img src="assets/img/logo.png" alt="VLSID"></a>
+        <a href="index.html" class="ml-4"><img src="assets/img/vlsi_logo.jfif" alt="VLSI-Society-Logo"></a>>
       </div>
 
       <nav id="nav-menu-container">
-
         <ul class="nav-menu">
           <li class="dropdown">
             <div class="btn-group text-left">
-              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Home
-              </button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="../index.html">Go to Home</a>
-                <a class="dropdown-item" href="../conference-history.html">Conference History</a>
-                <a class="dropdown-item" href="https://ieeexplore.ieee.org/xpl/conhome/1000799/all-proceedings">Past VLSID Proceedings</a>
-                <a class="dropdown-item" href="#">VLSID Archives</a>
-
-              </div>
-            </div>
-
-          </li>
-          <li>
-            <div class="btn-group">
-              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Submissions
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Design Contest</a>
-                <a class="dropdown-item" href="#">Call for Papers</a>
-                <a class="dropdown-item" href="#">Tutorial Submissions</a>
-                <a class="dropdown-item" href="#">User Design Track Submission</a>
-                <a class="dropdown-item" href="#">Student Research Forum</a>
-                <a class="dropdown-item" href="#">Industry Research Forum</a>
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="venue.html">Venue</a>
+                <a class="dropdown-item" href="conference-history.html">Conference History</a>
+                <a class="dropdown-item" href="https://ieeexplore.ieee.org/xpl/conhome/1000799/all-proceedings" target="_blank">Past VLSID Proceedings</a>
+                <a class="dropdown-item" href="archive.html">VLSID 2020 Archive</a>
               </div>
             </div>
           </li>
-
           <li>
             <div class="btn-group">
-              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Programmes
-              </button>
+              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Submissions</button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Tutorial Days</a>
-                <a class="dropdown-item" href="#">Main Conference Days</a>
+                <a class="dropdown-item" href="call-for-papers.html">Call for Contribution</a>
+
               </div>
             </div>
           </li>
-
           <li>
             <div class="btn-group">
-              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Events
-              </button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Schedule</button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Keynote</a>
-                <a class="dropdown-item" href="#">Banquet Keynote</a>
-                <a class="dropdown-item" href="#">Invited Talks</a>
-                <a class="dropdown-item" href="#">Plenary Sessions</a>
-                <a class="dropdown-item" href="#">Student Research Forum</a>
-                <a class="dropdown-item" href="#">Industry Forum</a>
-                <a class="dropdown-item" href="#">Startup Forum</a>
-                <a class="dropdown-item" href="#">User Design Track</a>
+                <a class="dropdown-item disabled-my" href="updating_soon.html">Tutorial Days</a>
+                <a class="dropdown-item disabled-my" href="updating_soon.html">Main Conference Days</a>
+                <a class="dropdown-item disabled-my" href="updating_soon.html">Workshop Days</a>
               </div>
             </div>
           </li>
-
           <li>
             <div class="btn-group">
-              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Sponsors
-              </button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Sponsors Details</a>
-                <a class="dropdown-item" href="#">Exhibitors Pricing</a>
-                <a class="dropdown-item" href="#">Sponsors Pricing</a>
+                <a class="dropdown-item disabled-my" href="#">Keynote</a>
+                <a class="dropdown-item disabled-my" href="#">Banquet Keynote</a>
+                <a class="dropdown-item disabled-my" href="#">Invited Talks</a>
+                <a class="dropdown-item disabled-my" href="#">Plenary Sessions</a>
+                <a class="dropdown-item disabled-my" href="#">Student Research Forum</a>
+                <a class="dropdown-item disabled-my" href="#">Industry Forum</a>
+                <a class="dropdown-item disabled-my" href="#">Navonmesha</a>
+                <a class="dropdown-item disabled-my" href="#">User Design Track</a>
               </div>
             </div>
           </li>
-
           <li>
             <div class="btn-group">
-              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Committee
-              </button>
+              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sponsors</button>
+              <div class="dropdown-menu">
+
+                <a class="dropdown-item disabled-my" href="#">Sponsors Industry Leaders</a> <!-- sponsors-industry-leaders.html -->
+                <a class="dropdown-item disabled-my" href="#">Sponsors Academic Institutions</a> <!-- sponsors-industry-academic-consortiums.html -->
+                <a class="dropdown-item disabled-my" href="#">Exhibitors Pricing</a> <!-- sponsors-exhibitors-pricing.html -->
+                <a class="dropdown-item disabled-my" href="#">Sponsors Pricing</a> <!-- sponsors-invitation.html -->
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="btn-group">
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Committee</button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="organizing-committee.html">Organizing Committee</a>
-                <a class="dropdown-item" href="#">Technical Program Committee</a>
-                <a class="dropdown-item" href="#">Steering Committee</a>
-                <a class="dropdown-item" href="#">User Design Track TPC</a>
+                <a class="dropdown-item disabled-my" href="#">Technical Program Committee</a>
+                <a class="dropdown-item disabled-my" href="#">Steering Committee</a>
               </div>
             </div>
           </li>
-
           <li>
             <div class="btn-group">
-              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Attending VLSI 2021
-              </button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registration</button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Registration</a>
-                <a class="dropdown-item" href="../invitation_for_fellowship.html">Invitation for Fellowship</a>
-                <a class="dropdown-item" href="#venue">Venue</a>
-                <a class="dropdown-item" href="../visa_information.html">VISA Information</a>
+                <a class="dropdown-item disabled-my" href="#">Registration</a>
+                <a class="dropdown-item disabled-my" href="#">Fellowship</a>
+                <!--invitation_for_fellowship.html -->
+                <a class="dropdown-item  disabled-my" href="#">Visa Information</a> <!-- visa_information.html -->
               </div>
             </div>
           </li>
+          <li>
 
-          <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+            <button type="button" class="btnpp" data-toggle="modal" data-target="#centralModalSm">What's new?</button>
+
+          </li>
 
         </ul>
-
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- End Header -->
 
   <main id="main" class="main-page">
-
-    <!-- ======= Speaker Details Sectionn ======= -->
-    <section id="history-details" class="wow fadeIn">
-      <div class="container ">
-
-        <div class="section-header ">
-
-          <h2>Conference History</h2>
-
-        </div>
-
-        <div class="details" align="center">
-
-          <p>In December 1985, a group of about eighty-five delegates assembled on the campus of the Indian Institute of Technology, Chennai to attend the First International Workshop on VLSI Design. The sole purpose of that meeting was to sense the level of VLSI activities in India with a focus on engineering education and research. It started with only 193 Proceedings along with 29 presented papers and just one tutorial.
-
-            Since then, the conference has come a long way and has grown equilaterally with the VLSI community and has seen the likes of multinational Industries and academic contributors, from all around the globe. The numbers speak for themselves and have amplified to ten-fold the initial attendees, proceedings, presented papers and tutorials.
-
-          </p>
-
-          <br>
-          <br><br>
-        </div>
-
+    <!--  ======= Speaker Details Section======= -->
+    <section id="history-details" class="wow fadeInUp">
+      <div class="container">
         <div class="section-header">
-
-          <h2>VLSID Design Conference History</h2>
-
+          <h2>Conference History</h2>
         </div>
-
-        <div class="table-responsive card shadow">
-          <table class="table  table-hover ">
-
+        <div class="details text-center">
+          <p>In December 1985, a group of about eighty - five delegates assembled on the campus of the Indian Institute of Technology, Chennai to attend the First International Workshop on VLSI Design. The sole purpose of that meeting was to sense the level of VLSI activities in India with a focus on engineering education and research. It started with only 193 Proceedings along with 29 presented papers and just one tutorial.
+            Since then, the conference has come a long way and has grown equilaterally with the VLSI community and has seen the likes of multinational Industries and academic contributors, from all around the globe. The numbers speak for themselves and have amplified to ten - fold the initial attendees, proceedings, presented papers and tutorials.
+          </p>
+        </div>
+        <br><br><br>
+        <div class="section-header">
+          <h2>VLSID Design Conference History</h2>
+        </div>
+        <div class="table-responsive-xl shadow-lg">
+          <table class="table table-hover text-center">
             <thead>
-              <tr class="w3-theme ">
+              <tr class="color-theme">
                 <th>YEAR</th>
                 <th>DATE</th>
                 <th>LOCATION</th>
@@ -201,12 +278,11 @@
                 <th>NO. OF TUTORIALS</th>
                 <th>PROCEEDING PAGES</th>
                 <th>APPROX ATTENDANCE</th>
-
               </tr>
             </thead>
             <tr>
               <td>1985</td>
-              <td>26th-28th Dec</td>
+              <td>26<sup>th</sup> - 28<sup>th</sup> Dec</td>
               <td>Chennai</td>
               <td>29</td>
               <td>1</td>
@@ -215,7 +291,7 @@
             </tr>
             <tr>
               <td>1988</td>
-              <td>15th-18th Dec</td>
+              <td>15<sup>th</sup> - 18<sup>th</sup> Dec</td>
               <td>Bangalore</td>
               <td>26</td>
               <td>4</td>
@@ -224,222 +300,205 @@
             </tr>
             <tr>
               <td>1990</td>
-              <td>06th-09th Jan</td>
+              <td>06<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>30</td>
               <td>4</td>
               <td>390</td>
               <td>150</td>
             </tr>
-
             <tr>
               <td>1991</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>45</td>
               <td>9</td>
               <td>315</td>
               <td>250</td>
             </tr>
-
             <tr>
               <td>1992</td>
-              <td>04th-07th Jan</td>
+              <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>57</td>
               <td>4</td>
               <td>378</td>
               <td>300</td>
             </tr>
-
             <tr>
               <td>1993</td>
-              <td>03rd-06th Jan</td>
+              <td>03<sup>rd</sup> - 06<sup>th</sup> Jan</td>
               <td>Mumbai</td>
               <td>70</td>
               <td>6</td>
               <td>371</td>
               <td>300</td>
             </tr>
-
             <tr>
               <td>1993</td>
-              <td>05th-08th Jan</td>
+              <td>05<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>87</td>
               <td>6</td>
               <td>448</td>
               <td>400</td>
             </tr>
-
             <tr>
               <td>1995</td>
-              <td>04th-07th Jan</td>
+              <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>77</td>
               <td>6</td>
               <td>456</td>
               <td>450</td>
             </tr>
-
             <tr>
               <td>1996</td>
-              <td>03rd-06th Jan</td>
+              <td>03<sup>rd</sup> - 06<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>75</td>
               <td>6</td>
               <td>480</td>
               <td>550</td>
             </tr>
-
             <tr>
               <td>1997</td>
-              <td>04th-07th Jan</td>
+              <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>84</td>
               <td>6</td>
               <td>608</td>
               <td>550</td>
             </tr>
-
             <tr>
               <td>1998</td>
-              <td>04th-07th Jan</td>
+              <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
               <td>Chennai</td>
               <td>98</td>
               <td>6</td>
               <td>624</td>
               <td>600</td>
             </tr>
-
             <tr>
               <td>1999</td>
-              <td>07th-10th Jan</td>
+              <td>07<sup>th</sup> - 10<sup>th</sup> Jan</td>
               <td>Goa</td>
               <td>103</td>
               <td>6</td>
               <td>682</td>
               <td>600</td>
             </tr>
-
             <tr>
               <td>2000</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>93</td>
               <td>6</td>
               <td>590</td>
               <td>700</td>
             </tr>
-
             <tr>
               <td>2001</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>77</td>
               <td>9</td>
               <td>592</td>
               <td>750</td>
             </tr>
-
             <tr>
               <td>2002</td>
-              <td>07th-11th Jan</td>
+              <td>07<sup>th</sup> - 11<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>109</td>
               <td>8</td>
               <td>834</td>
               <td>1000</td>
             </tr>
-
             <tr>
               <td>2003</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>84</td>
               <td>6</td>
               <td>622</td>
               <td>800</td>
             </tr>
-
             <tr>
               <td>2004</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>Mumbai</td>
               <td>120</td>
               <td>8</td>
               <td>1132</td>
               <td>800</td>
             </tr>
-
             <tr>
               <td>2005</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>113</td>
               <td>9</td>
               <td>922</td>
               <td>850</td>
             </tr>
-
             <tr>
               <td>2006</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>136</td>
               <td>11</td>
               <td>880</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2007</td>
-              <td>06th-10th Jan</td>
+              <td>06<sup>th</sup> - 10<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>147</td>
               <td>15</td>
               <td>990</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2008</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>108</td>
               <td>10</td>
               <td>780</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2009</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>79</td>
               <td>9</td>
               <td>632</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2010</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>79</td>
               <td>8</td>
               <td>461</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2011</td>
-              <td>02nd-07th Jan</td>
+              <td>02<sup>nd</sup> - 07<sup>th</sup> Jan</td>
               <td>Chennai</td>
               <td>66</td>
               <td>8</td>
               <td>391</td>
               <td>450</td>
             </tr>
-
             <tr>
               <td>2012</td>
-              <td>07th-11th Jan</td>
+              <td>07<sup>th</sup> - 11<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>69</td>
               <td>10</td>
@@ -448,7 +507,7 @@
             </tr>
             <tr>
               <td>2013</td>
-              <td>05th-10th Jan</td>
+              <td>05<sup>th</sup> - 10<sup>th</sup> Jan</td>
               <td>Pune</td>
               <td>66</td>
               <td>12</td>
@@ -457,16 +516,16 @@
             </tr>
             <tr>
               <td>2014</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>Mumbai</td>
               <td>97</td>
               <td>10</td>
               <td>584</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
             <tr>
               <td>2015</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>72</td>
               <td>11</td>
@@ -475,173 +534,143 @@
             </tr>
             <tr>
               <td>2016</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>86</td>
               <td>14</td>
               <td>610</td>
-              <td>-</td>
+              <td> - </td>
             </tr>
           </table>
-
         </div>
-        <br>
-        <br><br>
-
+        <br><br><br>
         <div class="section-header">
-
           <h2>Embedded Systems Design Conference History
           </h2>
-
         </div>
-
-        <div class="table-responsive card shadow">
-
-          <table class="table table-hover ">
+        <div class="table-responsive-xl shadow-lg">
+          <table class="table table-hover text-center">
             <thead>
-              <tr class="w3-theme">
+              <tr class="color-theme">
                 <th>YEAR</th>
                 <th>DATE</th>
                 <th>LOCATION</th>
                 <th>NO. OF PAPERS</th>
-
                 <th>PROCEEDING PAGES</th>
-
               </tr>
             </thead>
             <tr>
               <td>2002</td>
-              <td>02nd-04th Jan</td>
+              <td>02<sup>nd</sup> - 04<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>8</td>
               <td>70</td>
-
             </tr>
             <tr>
               <td>2003</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>84</td>
               <td>622</td>
-
             </tr>
             <tr>
               <td>2004</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>Mumbai</td>
               <td>120</td>
               <td>1132</td>
-
             </tr>
-
             <tr>
               <td>2005</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>113</td>
               <td>922</td>
-
             </tr>
             <tr>
               <td>2006</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>136</td>
               <td>880</td>
-
             </tr>
             <tr>
               <td>2007</td>
-              <td>06th-10th Jan</td>
+              <td>06<sup>th</sup> - 10<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>147</td>
               <td>990</td>
-
             </tr>
             <tr>
               <td>2008</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>108</td>
               <td>780</td>
-
             </tr>
             <tr>
               <td>2009</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>New Delhi</td>
               <td>79</td>
               <td>632</td>
-
             </tr>
             <tr>
               <td>2010</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>79</td>
               <td>461</td>
-
             </tr>
-
             <tr>
               <td>2011</td>
-              <td>02nd-07th Jan</td>
+              <td>02<sup>nd</sup> - 07<sup>th</sup> Jan</td>
               <td>Chennai</td>
               <td>66</td>
               <td>391</td>
-
             </tr>
             <tr>
               <td>2012</td>
-              <td>07th-11th Jan</td>
+              <td>07<sup>th</sup> - 11<sup>th</sup> Jan</td>
               <td>Hyderabad</td>
               <td>69</td>
               <td>458</td>
-
             </tr>
-
             <tr>
               <td>2013</td>
-              <td>05th-10th Jan</td>
+              <td>05<sup>th</sup> - 10<sup>th</sup> Jan</td>
               <td>Pune</td>
               <td>66</td>
               <td>396</td>
-
             </tr>
-
             <tr>
               <td>2014</td>
-              <td>05th-09th Jan</td>
+              <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
               <td>Mumbai</td>
               <td>97</td>
               <td>584</td>
-
             </tr>
             <tr>
               <td>2015</td>
-              <td>03rd-07th Jan</td>
+              <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
               <td>Bangalore</td>
               <td>72</td>
               <td>558</td>
-
             </tr>
             <tr>
               <td>2016</td>
-              <td>04th-08th Jan</td>
+              <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
               <td>Kolkata</td>
               <td>86</td>
               <td>610</td>
-
             </tr>
           </table>
-
         </div>
-
       </div>
-
+      <br><br>
+      <div class="fade_rule"></div>
     </section>
-
-  </main><!-- End #main -->
+  </main><!--  End #main  -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -649,49 +678,31 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="assets/img/logo.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          <div class="col-lg-4  col-md-6 footer-info mx-auto text-center">
+            <img src="assets/img/logo.png" alt="VLSID">
+            <img src="assets/img/vlsi_logo.jfif" class="ml-4" alt="VLSI-society-logo">
+
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
+          <!--        <div class="col-lg-4 col-md-6 footer-links">-->
+          <!--          <h4>Useful Links</h4>-->
+          <!--          <ul>-->
+          <!--            <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>-->
+          <!--            <li><i class="fa fa-angle-right"></i> <a href="call-for-papers.html#important-dates">Important Dates</a></li>-->
+          <!--            <li><i class="fa fa-angle-right"></i> <a href="call-for-papers.html">Call for Contribution</a></li>-->
+          <!--          </ul>-->
+          <!--        </div>-->
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
+          <div class="col-lg-4 col-md-6 footer-contact mx-auto text-center">
+            <div class="d-inline-flex text-center mx-auto">
+              <h4 class="">Contact Us </h4> <a href="mailto:vlsid2021@gmail.com" class=" ml-3" style="font-size: 15px; margin-top: -4px">vlsid2021@gmail.com</a>
+            </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="contact.html"><i class="fa fa-envelope"></i></a>
+              <a href="https://twitter.com/vlsidconf" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/esvlsid/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.linkedin.com/company/embeddedandvlsidesignconference/" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
 
           </div>
@@ -702,16 +713,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-        All the links in the footer should remain intact.
-        You can delete the links only if you purchased the pro version.
-        Licensing information: https://bootstrapmade.com/license/
-        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-      -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; Copyright <strong>VLSID-2021</strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End  Footer -->

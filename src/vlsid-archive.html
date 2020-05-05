@@ -1,0 +1,39 @@
+{% extends "template.html" %}
+
+{% set page ='vlsid-archive' %}
+
+{% block meta %}
+<title>VLSID Archive - Embedded & VLSI Design Conference</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+
+<main id="main" class="main-page">
+  <section id="archive-details" class="wow fadeInUp">
+    <div class="container">
+      <div class="section-header">
+        <h2>VLSID Archives</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 text-center mx-auto">
+          <h3> <span class="dot mr-3"></span><a href="assets/VLSID/index.html" target="_blank">VLSID - Archive 2020</a></h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<style>
+  @media (min-width: 991px) {
+    #footer{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left:0;
+    }
+  }
+
+</style>
+{% endblock %}

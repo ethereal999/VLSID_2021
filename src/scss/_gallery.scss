@@ -1,21 +1,29 @@
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-
+.owl-carousel .owl-stage{
+    display: flex !important;
+}
+.vbox-title{
+  font-size: 17px;
+  @media (max-width: 991px) {
+    font-size: 14px;
+  }
+}
 #gallery {
-  padding: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
   overflow: hidden;
   
   .owl-nav, .owl-dots {
     margin-top: 25px;
     text-align: center;
   }
-
   .owl-item {
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
   }
-
   .owl-dot {
     display: inline-block;
     margin: 0 5px;

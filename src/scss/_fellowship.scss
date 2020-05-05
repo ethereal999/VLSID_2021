@@ -1,113 +1,98 @@
-
 /*--------------------------------------------------------------
 # Fellowship Section
 --------------------------------------------------------------*/
 #fellowship {
-
+    padding: 60px 0 30px 0;
 }
-
 .aboutbtn {
-    font-family: $heading-font;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
-    transition: 0.5s;
-    line-height: 1;
-    margin: 10px;
-    color: #accent-color;
-    animation-delay: 0.8s;
-    border: 2px solid $accent-color;
-
-    &:hover {
-      background: $accent-color;
-      color: #fff;
-      border: 2px solid $heading-color;
-    }
-  }
-.btnf {
-       font-family: $heading-font;
-    font-weight: 500;
-    font-size: 15px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
-    transition: 0.5s;
-    line-height: 1;
-    margin: 10px;
-    color: #fff;
-    animation-delay: 0.8s;
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: $heading-color;
+  background-color: transparent;
+  animation-delay: 0.8s;
+  border: 2px solid $accent-color;
+  &:hover {
     background: $accent-color;
-    border: 2px solid $heading-color;
-
-    &:hover {
-      background: #fff;
-      color: $accent-color;
-      border: 2px solid $accent-color;
-    }
-    }
-
- .details_f {
-
-    h2 {
-      color: lighten($heading-color, 15%);
-      font-size: 32px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-
-
-    p {
-      color: lighten(#333333, 10%);
-      font-size: 25px;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-
-
-
+    color: #fff;
   }
-
-  .list-group{
-
-   li {
-      color: lighten(#333333, 10%);
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-      a {
-
-      font-size: 19px;
-      margin-bottom: 10px;
-       font-weight: 600;
-    }
+}
+.btnf {
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  animation-delay: 0.8s;
+  background: $accent-color;
+  border: 2px solid $heading-color;
+  &:hover {
+    background: #fff;
+    color: $accent-color;
+    border: 2px solid $accent-color;
   }
-    .list-group-item{
-
-   span{
+}
+.details_f {
+  h2 {
+    color: lighten($heading-color, 15%);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    color: lighten(#333333, 10%);
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+.list-group{
+  li {
+    color: lighten(#333333, 10%);
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  a {
+    font-size: 19px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+}
+.list-group-item{
+  span{
     color: lighten(green, 8%);
-      font-size: 23px;
-      font-weight: 700;
-      margin-bottom: 5px;
-   }
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 5px;
   }
-
+}
 .brk-btn {
   position: relative;
   background: none;
   color: lighten(#333333, 10%);
-   font-size: 25px;
-      margin-bottom: 10px;
-      text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   border: 0.1em solid $heading-color;
   padding: 0.5em 1em;
+  @media (max-width: 991px) {
+    font-size: 18px;
+  }
   &::before {
     content: "";
     display: block;
@@ -143,13 +128,10 @@
     }
   }
 }
-
-
 .section-header-f {
   margin-bottom: 60px;
   position: relative;
   padding-bottom: 20px;
-
   &::before {
     content: '';
     position: absolute;
@@ -160,33 +142,27 @@
     bottom: 0;
     left: calc(52% - 70px);
   }
-
   h2 {
     font-size: 36px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
-
     margin-bottom: 10px;
-        line-height: 2;
+    line-height: 2;
   }
   h3 {
     font-size: 25px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
-
     margin-bottom: 10px;
-        line-height: 2;
+    line-height: 2;
   }
- h4 {
+  h4 {
     font-size: 20px;
-
     text-align: center;
     font-weight: 600;
-
     margin-bottom: 0px;
-
   }
   p {
     text-align: center;
@@ -196,14 +172,14 @@
     font-weight: 500;
     color: lighten($text-color, 40%);
   }
-
 }
-
 .card{
- li{
-  color: lighten(#333333, 10%);
-      font-size: 20px;
-      margin-bottom: 10px;
-
- }
+  li{
+    color: lighten(#333333, 10%);
+    font-size: 20px;
+    margin-bottom: 10px;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+  }
 }

@@ -1,0 +1,92 @@
+/*--------------------------------------------------------------
+# Events - Plenary Sessions Section
+--------------------------------------------------------------*/
+
+#events-plenary-sessions {
+  padding: 60px 0;
+  .title-heading{
+    font-weight: 500;
+    font-size: 32px;
+    @media (max-width: 991px) {
+      font-size: 27px;
+    }
+  }
+  .abstract-info{
+    text-align: justify;
+    font-size: 19px;
+    color: grey;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+  }
+  .abstract-title{
+    font-weight: 500;
+    font-size: 28px;
+    @media (max-width: 991px) {
+      font-size: 25px;
+    }
+  }
+  .speaker-bio-heading{
+    font-weight: 500;
+    font-size: 28px;
+    @media (max-width: 991px) {
+      font-size: 25px;
+    }
+  }
+  .speakers-bio{
+    text-align: justify;
+    color: grey;
+    font-size: 19px;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+  }
+  .plenary-title{
+    text-align: center;
+    color: #2471A3;
+    font-size: 50px;
+    @media (max-width: 991px) {
+      font-size: 38px;
+    }
+  }
+  .gallery {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    @media (max-width: 991px) {
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+      border: 1px solid #000;
+    }
+  }
+
+  .gallery:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+    border: 1px solid #777;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desc {
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .polaroid {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    border: 1px solid white;
+    &:hover{
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+      border: 1px solid black;
+      transition: all ease-in 0.2s;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Archive Section
+--------------------------------------------------------------*/
+
+#archive-details {
+  padding: 60px 0 30px 0;
+  a{
+    font-weight: 500;
+  }
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  background-color: darken($accent-color, 1.0);
+  border-radius: 50%;
+  display: inline-block;
+}

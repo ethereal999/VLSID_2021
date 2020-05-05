@@ -3,22 +3,19 @@
 @import 'general';
 @import 'header';
 @import 'nav';
+@import 'faq';
 @import 'intro';
-@import 'about';
 @import 'speakers';
+
 @import 'schedule';
 @import 'venue';
-@import 'hotels';
 @import 'gallery';
-@import 'sponsors';
-@import 'faq';
 @import 'subscribe';
 @import 'buy-ticket';
 @import 'contact';
 @import 'footer';
-@import 'conferencehistory';
-@import 'organizing-committee';
-@import 'fellowship';
-@import 'visa';
-
-
+@import "organizing-committee";
+@import "conference-history";
+@import "fellowship";
+@import "call-for-papers";
+@import "updating-soon";

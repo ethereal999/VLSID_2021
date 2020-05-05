@@ -1,0 +1,33 @@
+{% extends "template.html" %}
+
+{% set page ='updating-soon' %}
+
+{% block meta %}
+<title>Updating soon - Embedded & VLSI Design Conference</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+<main id="main" class="main-page">
+    <section id="updating-soon">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="updating-soon-title"> Updating Soon!</h2>
+                <p class="updating-soon-info">Stay tuned for further updates.</p>
+            </div>
+        </div>
+    </section>
+</main>
+<style>
+  @media (min-width: 991px) {
+    #footer{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left:0;
+    }
+  }
+
+</style>
+{% endblock %}

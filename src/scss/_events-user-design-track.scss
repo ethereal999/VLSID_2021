@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+# Events - User Design Track Section
+--------------------------------------------------------------*/
+
+#events-user-design-track {
+  padding: 60px 0 30px 0;
+  .table-bordered th ,td{
+    border-color: black;
+  }
+  .table thead th{
+    border-color: black;
+  }
+  thead tr{
+    text-align: center;
+  }
+  .table tbody td{
+    vertical-align: middle;
+  }
+  .table thead th{
+    vertical-align: middle;
+  }
+  li{
+    font-size: 20px;
+    font-weight: 500;
+    color: $accent-color;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+  }
+}

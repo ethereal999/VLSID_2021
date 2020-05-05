@@ -1,512 +1,429 @@
 {% extends "template.html" %}
-
 {% set page ='history-details' %}
-
 {% block meta %}
-<title>VLSID-Conference History</title>
-<meta content="" name="descriptison">
+<title>Conference History - Embedded & VLSI Design Conference</title>
+<meta content="" name="description">
 <meta content="" name="keywords">
 {% endblock %}
-
-
 {% block content %}
-
 <main id="main" class="main-page">
-
-  <!-- ======= Speaker Details Sectionn ======= -->
-  <section id="history-details" class="wow fadeIn">
-    <div class="container ">
-
-      <div class="section-header ">
-
-        <h2>Conference History</h2>
-
-      </div>
-
-
-
-
-
-      <div class="details" align="center">
-
-
-        <p>In December 1985, a group of about eighty-five delegates assembled on the campus of the Indian Institute of Technology, Chennai to attend the First International Workshop on VLSI Design. The sole purpose of that meeting was to sense the level of VLSI activities in India with a focus on engineering education and research. It started with only 193 Proceedings along with 29 presented papers and just one tutorial.
-
-          Since then, the conference has come a long way and has grown equilaterally with the VLSI community and has seen the likes of multinational Industries and academic contributors, from all around the globe. The numbers speak for themselves and have amplified to ten-fold the initial attendees, proceedings, presented papers and tutorials.
-
-        </p>
-
-        <br>
+    <!--  ======= Speaker Details Section======= -->
+    <section id="history-details" class="wow fadeInUp">
+        <div class="container">
+            <div class="section-header">
+                <h2>Conference History</h2>
+            </div>
+            <div class="details text-center">
+                <p>In December 1985, a group of about eighty - five delegates assembled on the campus of the Indian Institute of Technology, Chennai to attend the First International Workshop on VLSI Design. The sole purpose of that meeting was to sense the level of VLSI activities in India with a focus on engineering education and research. It started with only 193 Proceedings along with 29 presented papers and just one tutorial.
+                    Since then, the conference has come a long way and has grown equilaterally with the VLSI community and has seen the likes of multinational Industries and academic contributors, from all around the globe. The numbers speak for themselves and have amplified to ten - fold the initial attendees, proceedings, presented papers and tutorials.
+                </p>
+            </div>
+            <br><br><br>
+            <div class="section-header">
+                <h2>VLSID Design Conference History</h2>
+            </div>
+            <div class="table-responsive-xl shadow-lg">
+                <table class="table table-hover text-center">
+                    <thead>
+                    <tr class="color-theme">
+                        <th>YEAR</th>
+                        <th>DATE</th>
+                        <th>LOCATION</th>
+                        <th>PRESENTED PAPERS</th>
+                        <th>NO. OF TUTORIALS</th>
+                        <th>PROCEEDING PAGES</th>
+                        <th>APPROX ATTENDANCE</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>1985</td>
+                        <td>26<sup>th</sup> - 28<sup>th</sup> Dec</td>
+                        <td>Chennai</td>
+                        <td>29</td>
+                        <td>1</td>
+                        <td>193</td>
+                        <td>75</td>
+                    </tr>
+                    <tr>
+                        <td>1988</td>
+                        <td>15<sup>th</sup> - 18<sup>th</sup> Dec</td>
+                        <td>Bangalore</td>
+                        <td>26</td>
+                        <td>4</td>
+                        <td>496</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>1990</td>
+                        <td>06<sup>th</sup> - 09<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>30</td>
+                        <td>4</td>
+                        <td>390</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <td>1991</td>
+                        <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>45</td>
+                        <td>9</td>
+                        <td>315</td>
+                        <td>250</td>
+                    </tr>
+                    <tr>
+                        <td>1992</td>
+                        <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>57</td>
+                        <td>4</td>
+                        <td>378</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>1993</td>
+                        <td>03<sup>rd</sup> - 06<sup>th</sup> Jan</td>
+                        <td>Mumbai</td>
+                        <td>70</td>
+                        <td>6</td>
+                        <td>371</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>1993</td>
+                        <td>05<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>87</td>
+                        <td>6</td>
+                        <td>448</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>1995</td>
+                        <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>77</td>
+                        <td>6</td>
+                        <td>456</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <td>1996</td>
+                        <td>03<sup>rd</sup> - 06<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>75</td>
+                        <td>6</td>
+                        <td>480</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>1997</td>
+                        <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>84</td>
+                        <td>6</td>
+                        <td>608</td>
+                        <td>550</td>
+                    </tr>
+                    <tr>
+                        <td>1998</td>
+                        <td>04<sup>th</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Chennai</td>
+                        <td>98</td>
+                        <td>6</td>
+                        <td>624</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>1999</td>
+                        <td>07<sup>th</sup> - 10<sup>th</sup> Jan</td>
+                        <td>Goa</td>
+                        <td>103</td>
+                        <td>6</td>
+                        <td>682</td>
+                        <td>600</td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>93</td>
+                        <td>6</td>
+                        <td>590</td>
+                        <td>700</td>
+                    </tr>
+                    <tr>
+                        <td>2001</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>77</td>
+                        <td>9</td>
+                        <td>592</td>
+                        <td>750</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>07<sup>th</sup> - 11<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>109</td>
+                        <td>8</td>
+                        <td>834</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>2003</td>
+                        <td>04<sup>th</sup> -  08<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>84</td>
+                        <td>6</td>
+                        <td>622</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>05<sup>th</sup> -  09<sup>th</sup> Jan</td>
+                        <td>Mumbai</td>
+                        <td>120</td>
+                        <td>8</td>
+                        <td>1132</td>
+                        <td>800</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>03<sup>rd</sup> -  07<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>113</td>
+                        <td>9</td>
+                        <td>922</td>
+                        <td>850</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>03<sup>rd</sup> -  07<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>136</td>
+                        <td>11</td>
+                        <td>880</td>
+                        <td> -  </td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>06<sup>th</sup> -  10<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>147</td>
+                        <td>15</td>
+                        <td>990</td>
+                        <td> -  </td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>04<sup>th</sup> -  08<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>108</td>
+                        <td>10</td>
+                        <td>780</td>
+                        <td> -  </td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>05<sup>th</sup> -  09<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>79</td>
+                        <td>9</td>
+                        <td>632</td>
+                        <td> -  </td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>03<sup>rd</sup> -  07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>79</td>
+                        <td>8</td>
+                        <td>461</td>
+                        <td> -  </td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>02<sup>nd</sup> -  07<sup>th</sup> Jan</td>
+                        <td>Chennai</td>
+                        <td>66</td>
+                        <td>8</td>
+                        <td>391</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>07<sup>th</sup> -  11<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>69</td>
+                        <td>10</td>
+                        <td>458</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>05<sup>th</sup> - 10<sup>th</sup> Jan</td>
+                        <td>Pune</td>
+                        <td>66</td>
+                        <td>12</td>
+                        <td>396</td>
+                        <td>979</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
+                        <td>Mumbai</td>
+                        <td>97</td>
+                        <td>10</td>
+                        <td>584</td>
+                        <td> - </td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>72</td>
+                        <td>11</td>
+                        <td>558</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>86</td>
+                        <td>14</td>
+                        <td>610</td>
+                        <td> - </td>
+                    </tr>
+                </table>
+            </div>
+            <br><br><br>
+            <div class="section-header">
+                <h2>Embedded Systems Design Conference History
+                </h2>
+            </div>
+            <div class="table-responsive-xl shadow-lg">
+                <table class="table table-hover text-center">
+                    <thead>
+                    <tr class="color-theme">
+                        <th>YEAR</th>
+                        <th>DATE</th>
+                        <th>LOCATION</th>
+                        <th>NO. OF PAPERS</th>
+                        <th>PROCEEDING PAGES</th>
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td>2002</td>
+                        <td>02<sup>nd</sup> - 04<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>8</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>2003</td>
+                        <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>84</td>
+                        <td>622</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
+                        <td>Mumbai</td>
+                        <td>120</td>
+                        <td>1132</td>
+                    </tr>
+                    <tr>
+                        <td>2005</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>113</td>
+                        <td>922</td>
+                    </tr>
+                    <tr>
+                        <td>2006</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>136</td>
+                        <td>880</td>
+                    </tr>
+                    <tr>
+                        <td>2007</td>
+                        <td>06<sup>th</sup> - 10<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>147</td>
+                        <td>990</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>108</td>
+                        <td>780</td>
+                    </tr>
+                    <tr>
+                        <td>2009</td>
+                        <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
+                        <td>New Delhi</td>
+                        <td>79</td>
+                        <td>632</td>
+                    </tr>
+                    <tr>
+                        <td>2010</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>79</td>
+                        <td>461</td>
+                    </tr>
+                    <tr>
+                        <td>2011</td>
+                        <td>02<sup>nd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Chennai</td>
+                        <td>66</td>
+                        <td>391</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>07<sup>th</sup> - 11<sup>th</sup> Jan</td>
+                        <td>Hyderabad</td>
+                        <td>69</td>
+                        <td>458</td>
+                    </tr>
+                    <tr>
+                        <td>2013</td>
+                        <td>05<sup>th</sup> - 10<sup>th</sup> Jan</td>
+                        <td>Pune</td>
+                        <td>66</td>
+                        <td>396</td>
+                    </tr>
+                    <tr>
+                        <td>2014</td>
+                        <td>05<sup>th</sup> - 09<sup>th</sup> Jan</td>
+                        <td>Mumbai</td>
+                        <td>97</td>
+                        <td>584</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>03<sup>rd</sup> - 07<sup>th</sup> Jan</td>
+                        <td>Bangalore</td>
+                        <td>72</td>
+                        <td>558</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>04<sup>th</sup> - 08<sup>th</sup> Jan</td>
+                        <td>Kolkata</td>
+                        <td>86</td>
+                        <td>610</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <br><br>
-      </div>
-
-
-      <div class="section-header">
-
-        <h2>VLSID Design Conference History</h2>
-
-      </div>
-
-
-      <div class="table-responsive card shadow">
-        <table class="table  table-hover ">
-
-          <thead>
-          <tr class="w3-theme ">
-            <th>YEAR</th>
-            <th>DATE</th>
-            <th>LOCATION</th>
-            <th>PRESENTED PAPERS</th>
-            <th>NO. OF TUTORIALS</th>
-            <th>PROCEEDING PAGES</th>
-            <th>APPROX ATTENDANCE</th>
-
-          </tr>
-          </thead>
-          <tr>
-            <td>1985</td>
-            <td>26th-28th Dec</td>
-            <td>Chennai</td>
-            <td>29</td>
-            <td>1</td>
-            <td>193</td>
-            <td>75</td>
-          </tr>
-          <tr>
-            <td>1988</td>
-            <td>15th-18th Dec</td>
-            <td>Bangalore</td>
-            <td>26</td>
-            <td>4</td>
-            <td>496</td>
-            <td>150</td>
-          </tr>
-          <tr>
-            <td>1990</td>
-            <td>06th-09th Jan</td>
-            <td>Bangalore</td>
-            <td>30</td>
-            <td>4</td>
-            <td>390</td>
-            <td>150</td>
-          </tr>
-
-          <tr>
-            <td>1991</td>
-            <td>04th-08th Jan</td>
-            <td>New Delhi</td>
-            <td>45</td>
-            <td>9</td>
-            <td>315</td>
-            <td>250</td>
-          </tr>
-
-          <tr>
-            <td>1992</td>
-            <td>04th-07th Jan</td>
-            <td>Bangalore</td>
-            <td>57</td>
-            <td>4</td>
-            <td>378</td>
-            <td>300</td>
-          </tr>
-
-          <tr>
-            <td>1993</td>
-            <td>03rd-06th Jan</td>
-            <td>Mumbai</td>
-            <td>70</td>
-            <td>6</td>
-            <td>371</td>
-            <td>300</td>
-          </tr>
-
-          <tr>
-            <td>1993</td>
-            <td>05th-08th Jan</td>
-            <td>Kolkata</td>
-            <td>87</td>
-            <td>6</td>
-            <td>448</td>
-            <td>400</td>
-          </tr>
-
-          <tr>
-            <td>1995</td>
-            <td>04th-07th Jan</td>
-            <td>New Delhi</td>
-            <td>77</td>
-            <td>6</td>
-            <td>456</td>
-            <td>450</td>
-          </tr>
-
-          <tr>
-            <td>1996</td>
-            <td>03rd-06th Jan</td>
-            <td>Bangalore</td>
-            <td>75</td>
-            <td>6</td>
-            <td>480</td>
-            <td>550</td>
-          </tr>
-
-          <tr>
-            <td>1997</td>
-            <td>04th-07th Jan</td>
-            <td>Hyderabad</td>
-            <td>84</td>
-            <td>6</td>
-            <td>608</td>
-            <td>550</td>
-          </tr>
-
-          <tr>
-            <td>1998</td>
-            <td>04th-07th Jan</td>
-            <td>Chennai</td>
-            <td>98</td>
-            <td>6</td>
-            <td>624</td>
-            <td>600</td>
-          </tr>
-
-          <tr>
-            <td>1999</td>
-            <td>07th-10th Jan</td>
-            <td>Goa</td>
-            <td>103</td>
-            <td>6</td>
-            <td>682</td>
-            <td>600</td>
-          </tr>
-
-          <tr>
-            <td>2000</td>
-            <td>03rd-07th Jan</td>
-            <td>Kolkata</td>
-            <td>93</td>
-            <td>6</td>
-            <td>590</td>
-            <td>700</td>
-          </tr>
-
-          <tr>
-            <td>2001</td>
-            <td>03rd-07th Jan</td>
-            <td>Bangalore</td>
-            <td>77</td>
-            <td>9</td>
-            <td>592</td>
-            <td>750</td>
-          </tr>
-
-          <tr>
-            <td>2002</td>
-            <td>07th-11th Jan</td>
-            <td>Bangalore</td>
-            <td>109</td>
-            <td>8</td>
-            <td>834</td>
-            <td>1000</td>
-          </tr>
-
-          <tr>
-            <td>2003</td>
-            <td>04th-08th Jan</td>
-            <td>New Delhi</td>
-            <td>84</td>
-            <td>6</td>
-            <td>622</td>
-            <td>800</td>
-          </tr>
-
-          <tr>
-            <td>2004</td>
-            <td>05th-09th Jan</td>
-            <td>Mumbai</td>
-            <td>120</td>
-            <td>8</td>
-            <td>1132</td>
-            <td>800</td>
-          </tr>
-
-          <tr>
-            <td>2005</td>
-            <td>03rd-07th Jan</td>
-            <td>Kolkata</td>
-            <td>113</td>
-            <td>9</td>
-            <td>922</td>
-            <td>850</td>
-          </tr>
-
-          <tr>
-            <td>2006</td>
-            <td>03rd-07th Jan</td>
-            <td>Hyderabad</td>
-            <td>136</td>
-            <td>11</td>
-            <td>880</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2007</td>
-            <td>06th-10th Jan</td>
-            <td>Bangalore</td>
-            <td>147</td>
-            <td>15</td>
-            <td>990</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2008</td>
-            <td>04th-08th Jan</td>
-            <td>Hyderabad</td>
-            <td>108</td>
-            <td>10</td>
-            <td>780</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2009</td>
-            <td>05th-09th Jan</td>
-            <td>New Delhi</td>
-            <td>79</td>
-            <td>9</td>
-            <td>632</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2010</td>
-            <td>03rd-07th Jan</td>
-            <td>Bangalore</td>
-            <td>79</td>
-            <td>8</td>
-            <td>461</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2011</td>
-            <td>02nd-07th Jan</td>
-            <td>Chennai</td>
-            <td>66</td>
-            <td>8</td>
-            <td>391</td>
-            <td>450</td>
-          </tr>
-
-          <tr>
-            <td>2012</td>
-            <td>07th-11th Jan</td>
-            <td>Hyderabad</td>
-            <td>69</td>
-            <td>10</td>
-            <td>458</td>
-            <td>1500</td>
-          </tr>
-          <tr>
-            <td>2013</td>
-            <td>05th-10th Jan</td>
-            <td>Pune</td>
-            <td>66</td>
-            <td>12</td>
-            <td>396</td>
-            <td>979</td>
-          </tr>
-          <tr>
-            <td>2014</td>
-            <td>05th-09th Jan</td>
-            <td>Mumbai</td>
-            <td>97</td>
-            <td>10</td>
-            <td>584</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>2015</td>
-            <td>03rd-07th Jan</td>
-            <td>Bangalore</td>
-            <td>72</td>
-            <td>11</td>
-            <td>558</td>
-            <td>1500</td>
-          </tr>
-          <tr>
-            <td>2016</td>
-            <td>04th-08th Jan</td>
-            <td>Kolkata</td>
-            <td>86</td>
-            <td>14</td>
-            <td>610</td>
-            <td>-</td>
-          </tr>
-        </table>
-
-
-      </div>
-       <br>
-        <br><br>
-
-
-      <div class="section-header">
-
-        <h2>Embedded Systems Design Conference History
-        </h2>
-
-      </div>
-
-      <div class="table-responsive card shadow">
-
-        <table class="table table-hover ">
-          <thead>
-          <tr class="w3-theme">
-            <th>YEAR</th>
-            <th>DATE</th>
-            <th>LOCATION</th>
-            <th>NO. OF PAPERS</th>
-
-            <th>PROCEEDING PAGES</th>
-
-
-          </tr>
-          </thead>
-          <tr>
-            <td>2002</td>
-            <td>02nd-04th Jan</td>
-            <td>New Delhi</td>
-            <td>8</td>
-            <td>70</td>
-
-          </tr>
-          <tr>
-            <td>2003</td>
-            <td>04th-08th Jan</td>
-            <td>New Delhi</td>
-            <td>84</td>
-            <td>622</td>
-
-          </tr>
-          <tr>
-            <td>2004</td>
-            <td>05th-09th Jan</td>
-            <td>Mumbai</td>
-            <td>120</td>
-            <td>1132</td>
-
-          </tr>
-
-          <tr>
-            <td>2005</td>
-            <td>03rd-07th Jan</td>
-            <td>Kolkata</td>
-            <td>113</td>
-            <td>922</td>
-
-          </tr>
-          <tr>
-            <td>2006</td>
-            <td>03rd-07th Jan</td>
-            <td>Hyderabad</td>
-            <td>136</td>
-            <td>880</td>
-
-          </tr>
-          <tr>
-            <td>2007</td>
-            <td>06th-10th Jan</td>
-            <td>Bangalore</td>
-            <td>147</td>
-            <td>990</td>
-
-          </tr>
-          <tr>
-            <td>2008</td>
-            <td>04th-08th Jan</td>
-            <td>Hyderabad</td>
-            <td>108</td>
-            <td>780</td>
-
-          </tr>
-          <tr>
-            <td>2009</td>
-            <td>05th-09th Jan</td>
-            <td>New Delhi</td>
-            <td>79</td>
-            <td>632</td>
-
-          </tr>
-          <tr>
-            <td>2010</td>
-            <td>03rd-07th Jan</td>
-            <td>Bangalore</td>
-            <td>79</td>
-            <td>461</td>
-
-          </tr>
-
-          <tr>
-            <td>2011</td>
-            <td>02nd-07th Jan</td>
-            <td>Chennai</td>
-            <td>66</td>
-            <td>391</td>
-
-          </tr>
-          <tr>
-            <td>2012</td>
-            <td>07th-11th Jan</td>
-            <td>Hyderabad</td>
-            <td>69</td>
-            <td>458</td>
-
-          </tr>
-
-          <tr>
-            <td>2013</td>
-            <td>05th-10th Jan</td>
-            <td>Pune</td>
-            <td>66</td>
-            <td>396</td>
-
-          </tr>
-
-          <tr>
-            <td>2014</td>
-            <td>05th-09th Jan</td>
-            <td>Mumbai</td>
-            <td>97</td>
-            <td>584</td>
-
-          </tr>
-          <tr>
-            <td>2015</td>
-            <td>03rd-07th Jan</td>
-            <td>Bangalore</td>
-            <td>72</td>
-            <td>558</td>
-
-          </tr>
-          <tr>
-            <td>2016</td>
-            <td>04th-08th Jan</td>
-            <td>Kolkata</td>
-            <td>86</td>
-            <td>610</td>
-
-          </tr>
-        </table>
-
-
-      </div>
-
-
-
-    </div>
-
-
-  </section>
-
-</main><!-- End #main -->
-
+        <div class="fade_rule"></div>
+    </section>
+</main><!--  End #main  -->
 {% endblock %}

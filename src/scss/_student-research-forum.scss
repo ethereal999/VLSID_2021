@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------
+# Student Research Forum
+--------------------------------------------------------------*/
+
+#student-research-forum {
+    padding: 60px 0 30px 0;
+  p{
+    font-size: 19px;
+    @media (max-width: 991px) {
+      font-size: 16px;
+    }
+  }
+}

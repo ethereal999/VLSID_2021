@@ -1,0 +1,20 @@
+{% extends "template.html" %}
+
+{% set page ='call-for-papers' %}
+
+{% block meta %}
+<title>Call for Contribution - Embedded & VLSI Design Conference</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+{% endblock %}
+
+{% block content %}
+<main id="main" class="main-page">
+   {% include "parts/important-dates.html" %}
+  {% include "parts/submit.html" %}
+  {% include "parts/call-for-contribution-info.html" %}
+  {% include "parts/contribution-tracks.html" %}
+
+</main>
+
+{% endblock %}

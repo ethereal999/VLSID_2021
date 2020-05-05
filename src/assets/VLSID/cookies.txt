@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+embeddedandvlsidesignconference.org	TRUE	/	FALSE	1999999999	PHPSESSID	2rqtbugjfiohgtjkqnfvo8e4h1
+.embeddedandvlsidesignconference.org	TRUE	/	FALSE	1999999999	__cfduid	d90dca5f0c883dd5ab730b473f69212331584955861
+embeddedandvlsidesignconference.org	TRUE	/	FALSE	1999999999	SameSite	Lax
+

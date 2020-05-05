@@ -3,8 +3,8 @@
 {% set page ='home' %}
 
 {% block meta %}
-  <title>TheEvent Bootstrap Template - Index</title>
-  <meta content="" name="descriptison">
+  <title>Program - Embedded & VLSI Design Conference</title>
+  <meta content="" name="description">
   <meta content="" name="keywords">
 {% endblock %}
 
@@ -14,28 +14,16 @@
 
   <main id="main">
 
-    {% include "parts/about-section.html" %}
+  <div class="container mt-4">
+      <div class="section-header">
+            <h2>Conference Venue</h2>
+          <p>A glimpse of IIT Guwahati</p>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 shadow-lg mb-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/92C1QU4jr30" allowfullscreen></iframe>
+        </div>
+    </div>
 
-    {% include "parts/speakers-section.html" %}
-
-    {% include "parts/schedule-section.html" %}
-
-    {% include "parts/venue-section.html" %}
-
-
-    {% include "parts/hotels-section.html" %}
-
-    {% include "parts/gallery-section.html" %}
-
-    {% include "parts/sponsors-section.html" %}
-
-    {% include "parts/faq-section.html" %}
-
-    {% include "parts/subscribe-section.html" %}
-    
-    {% include "parts/buy-tickets-section.html" %}
-
-    {% include "parts/contact-section.html" %}
 
   </main><!-- End #main -->
 

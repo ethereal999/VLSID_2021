@@ -56,9 +56,13 @@
     background-color:  rgba($heading-color, .9) ;
     color:  $accent-color;
   }
+
+  .dropdown-item a{
+    font-size: 17px;
+  }
   .btn:focus{
-        box-shadow: none;
-      }
+    box-shadow: none;
+  }
 }
 
 
@@ -93,6 +97,7 @@
 
 /* Nav Meu Styling */
 .nav-menu {
+
   a {
     padding: 8px;
     text-decoration: none;
@@ -116,6 +121,25 @@
       padding: 8px 4px;
     }
   }
+  .btnpp {
+
+    color: #fff;
+      background: $accent-color;
+      padding: 7px 22px;
+      border-radius: 50px;
+      border: 2px solid $accent-color;
+      transition: all ease-in-out 0.3s;
+      font-weight: 500;
+      margin-left: 8px;
+      margin-top: 2px;
+      line-height: 1;
+      font-size: 13px;
+      &:hover {
+        background: none;
+      }
+
+    }
+
   .menu-active a, a:hover {
     color: #fff;
   }
@@ -162,7 +186,10 @@
       visibility: hidden;
     }
   }
-
+   .disabled-my{
+    color: #c1c1c1;
+     font-weight: lighter;
+  }
 
   ul {
     margin: 4px 0 0 0;
@@ -231,8 +258,8 @@
   bottom: 0;
   z-index: 998;
   background: rgba($heading-color, 0.9);
-  left: -260px;
-  width: 260px;
+  left: -300px;
+  width: 300px;
   overflow-y: auto;
   transition: 0.4s;
 
@@ -268,6 +295,22 @@
         display: block;
         outline: none;
       }
+      .btnpp {
+      color: #fff;
+      background: $accent-color;
+      padding: 7px 22px;
+      border-radius: 50px;
+      border: 2px solid $accent-color;
+      transition: all ease-in-out 0.3s;
+      font-weight: 500;
+      margin-left: 8px;
+      margin-top: 2px;
+      line-height: 1;
+      font-size: 13px;
+      &:hover {
+        background: none;
+      }
+    }
       .btn:focus{
         box-shadow: none;
       }
@@ -275,7 +318,9 @@
         padding-left: 30px;
       }
     }
-
+    .btn-group a{
+      font-size: 14px;
+    }
     .menu-has-children i {
       position: absolute;
       right: 0;
@@ -292,12 +337,25 @@
       color: $accent-color;
     }
   }
+   .disabled-my{
+    color: #c9c4c8;
+     font-weight: lighter;
+  }
   .dropdown-menu{
     background-color: rgba(255,241,250,0.31);
     @media (max-width: 991px) {
-       transform: translate3d(16px, 0px, 0px) !important;
+      transform: translate3d(16px, 0px, 0px) !important;
       position: static !important;
     }
+  }
+  .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
   }
   .btn-group{
     display: flex;

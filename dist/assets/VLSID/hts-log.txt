@@ -1,0 +1,135 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 Mar 2020 14:13:08 at http://embeddedandvlsidesignconference.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://embeddedandvlsidesignconference.org/ -O1 "C:\Users\mohit jain\Desktop\temp\VLSID" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:19:46	Error: 	"Method Not Allowed" (405) at link embeddedandvlsidesignconference.org/xmlrpc.php (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2013/ (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2014/ (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2015/ (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2016/ (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2018/ (from embeddedandvlsidesignconference.org/)
+14:21:15	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/archives/2019 (from embeddedandvlsidesignconference.org/)
+14:23:34	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/robots.txt
+14:23:34	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/robots.txt and embeddedandvlsidesignconference.org/robots.txt
+14:23:34	Warning: 	Warning moved treated for https://embeddedandvlsidesignconference.org/robots.txt (real one is embeddedandvlsidesignconference.org/robots.txt)
+14:23:34	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/program/
+14:23:34	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/program/ and embeddedandvlsidesignconference.org/program/
+14:23:34	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/program/ to http://embeddedandvlsidesignconference.org/program/
+14:51:17	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/invited-talks/
+14:51:17	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/invited-talks/ and embeddedandvlsidesignconference.org/invited-talks/
+14:51:17	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/invited-talks/ to http://embeddedandvlsidesignconference.org/invited-talks/
+14:52:15	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/user-design-track/
+14:52:15	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/user-design-track/ and embeddedandvlsidesignconference.org/user-design-track/
+14:52:15	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/user-design-track/ to http://embeddedandvlsidesignconference.org/user-design-track/
+14:52:47	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/sponsors-academic-institutions/
+14:52:47	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/sponsors-academic-institutions/ and embeddedandvlsidesignconference.org/sponsors-academic-institutions/
+14:52:47	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/sponsors-academic-institutions/ to http://embeddedandvlsidesignconference.org/sponsors-academic-institutions/
+14:52:47	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/sponsors-pricing/
+14:52:47	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/sponsors-pricing/ and embeddedandvlsidesignconference.org/sponsors-pricing/
+14:52:47	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/sponsors-pricing/ to http://embeddedandvlsidesignconference.org/sponsors-pricing/
+14:52:47	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/exhibitors-pricing/
+14:52:47	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/exhibitors-pricing/ and embeddedandvlsidesignconference.org/exhibitors-pricing/
+14:52:47	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/exhibitors-pricing/ to http://embeddedandvlsidesignconference.org/exhibitors-pricing/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/user-design-tpc/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/user-design-tpc/ and embeddedandvlsidesignconference.org/user-design-tpc/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/user-design-tpc/ to http://embeddedandvlsidesignconference.org/user-design-tpc/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/registration/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/registration/ and embeddedandvlsidesignconference.org/registration/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/registration/ to http://embeddedandvlsidesignconference.org/registration/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/invitation-for-fellowships/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/invitation-for-fellowships/ and embeddedandvlsidesignconference.org/invitation-for-fellowships/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/invitation-for-fellowships/ to http://embeddedandvlsidesignconference.org/invitation-for-fellowships/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/venue/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/venue/ and embeddedandvlsidesignconference.org/venue/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/venue/ to http://embeddedandvlsidesignconference.org/venue/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/floorplan/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/floorplan/ and embeddedandvlsidesignconference.org/floorplan/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/floorplan/ to http://embeddedandvlsidesignconference.org/floorplan/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/accommodation/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/accommodation/ and embeddedandvlsidesignconference.org/accommodation/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/accommodation/ to http://embeddedandvlsidesignconference.org/accommodation/
+14:53:36	Warning: 	Moved Permanently for https://embeddedandvlsidesignconference.org/visa-information/
+14:53:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://embeddedandvlsidesignconference.org/visa-information/ and embeddedandvlsidesignconference.org/visa-information/
+14:53:36	Warning: 	File has moved from https://embeddedandvlsidesignconference.org/visa-information/ to http://embeddedandvlsidesignconference.org/visa-information/
+14:53:38	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/wp-content/themes/imevent/assets/img/background/bg-3.jpg (from embeddedandvlsidesignconference.org/wp-content/themes/imevent/assets/css/newhome.css)
+14:53:38	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/wp-content/themes/img/preview/background-img-slider.jpg (from embeddedandvlsidesignconference.org/wp-content/themes/imevent/style.css?ver=4.9.13)
+14:53:38	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1400
+14:53:38	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1400 to http://embeddedandvlsidesignconference.org/conference-history/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1413
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1413 to http://embeddedandvlsidesignconference.org/contact-us/
+14:53:40	Warning: 	Link embeddedandvlsidesignconference.org/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1536
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1536 to http://embeddedandvlsidesignconference.org/design-contest/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1346
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1346 to http://embeddedandvlsidesignconference.org/call-for-papers/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/regular-papers-abstract-submission/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/regular-papers-abstract-submission/ to http://embeddedandvlsidesignconference.org/call-for-papers/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/regular-papers-full-paper-submission/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/regular-papers-full-paper-submission/ to http://embeddedandvlsidesignconference.org/call-for-papers/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/regular-papers-acceptance-notification/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/regular-papers-acceptance-notification/ to http://embeddedandvlsidesignconference.org/call-for-papers/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/regular-papers-camera-ready-version/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/regular-papers-camera-ready-version/ to http://embeddedandvlsidesignconference.org/call-for-papers/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/tutorials-proposal-submission/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/tutorials-proposal-submission/ to http://embeddedandvlsidesignconference.org/tutorial-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/tutorials-acceptance-notification/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/tutorials-acceptance-notification/ to http://embeddedandvlsidesignconference.org/tutorial-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/tutorials-slide-submission/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/tutorials-slide-submission/ to http://embeddedandvlsidesignconference.org/tutorial-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/designer-track-abstract-submission/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/designer-track-abstract-submission/ to http://embeddedandvlsidesignconference.org/user-design-track/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/designer-track-acceptance-notification/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/designer-track-acceptance-notification/ to http://embeddedandvlsidesignconference.org/user-design-track/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/schedule/designer-track-final-presentation/
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/schedule/designer-track-final-presentation/ to http://embeddedandvlsidesignconference.org/user-design-track/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1782
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1782 to http://embeddedandvlsidesignconference.org/tutorial-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1542
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1542 to http://embeddedandvlsidesignconference.org/user-design-track-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1869
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1869 to http://embeddedandvlsidesignconference.org/student-research-forum-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1556
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1556 to http://embeddedandvlsidesignconference.org/industry-forum-submission/
+14:53:40	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1534
+14:53:40	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1534 to http://embeddedandvlsidesignconference.org/tutorial-programme/
+14:53:40	Warning: 	Retry after error -4 (Incorrect length (2599366 Bytes, 4085619 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Swagath-Venkataramani-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:53:40	Warning: 	Retry after error -4 (Incorrect length (3035343 Bytes, 3966177 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Yu-Wang-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:53:50	Warning: 	Retry after error -4 (Incorrect length (1762957 Bytes, 7665915 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Qadeer-Khan-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:54:00	Warning: 	Retry after error -4 (Incorrect length (2804601 Bytes, 3402980 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Shreyas-Sen-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:55:33	Warning: 	Retry after error -4 (Incorrect length (2669536 Bytes, 4120016 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Luca-Carloni-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:56:06	Warning: 	Retry after error -4 (Incorrect length (2688914 Bytes, 4538824 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Tulika-Mitra-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:57:55	Warning: 	Retry after error -4 (Incorrect length (2611383 Bytes, 3286139 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Makoto-Ikeda-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:59:27	Warning: 	Retry after error -4 (Incorrect length (2612388 Bytes, 3286139 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Makoto-Nagata-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:59:44	Warning: 	Retry after error -4 (Incorrect length (3089341 Bytes, 3658424 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Abhijit-Chatterjee-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+14:59:51	Warning: 	Retry after error -4 (Incorrect length (3042709 Bytes, 3449488 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Nirmal-Saxena-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1544
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1544 to http://embeddedandvlsidesignconference.org/visionary-keynote/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1548
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1548 to http://embeddedandvlsidesignconference.org/banquet-talk/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1546
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1546 to http://embeddedandvlsidesignconference.org/plenary-sessions/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=2074
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=2074 to http://embeddedandvlsidesignconference.org/student-research-forum/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=3226
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=3226 to http://embeddedandvlsidesignconference.org/industry-forum/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1552
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1552 to http://embeddedandvlsidesignconference.org/startup-forum/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1560
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1560 to http://embeddedandvlsidesignconference.org/sponsors-industry-leaders/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1576
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1576 to http://embeddedandvlsidesignconference.org/organizing-committee/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=1578
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=1578 to http://embeddedandvlsidesignconference.org/technical-programme-committee/
+15:00:57	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/technical-programme-committee/'data:image/svg+xml;utf-8,%3C%3Fxml version%3D%221.0%22 encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE svg PUBLIC %22-%2F%2FW3C%2F%2FDTD SVG 1.1%2F%2FEN%22 %22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg width%3D%2210px%22 height%3D%228px%22 viewBox%3D%220 0 18 15%22 version%3D%221.1%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon id%3D%22Combined-Shape%22 fill%3D%22%23fe6c61%22 points%3D%228.98762301 0 0 9.12771969 0 14.519983 9 5.40479869 18 14.519983 18 9.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E'
+15:00:57	Warning: 	File has moved from embeddedandvlsidesignconference.org/technical-programme-committee/'data:image/svg+xml;utf-8,%3C%3Fxml version%3D%221.0%22 encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE svg PUBLIC %22-%2F%2FW3C%2F%2FDTD SVG 1.1%2F%2FEN%22 %22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg width%3D%2210px%22 height%3D%228px%22 viewBox%3D%220 0 18 15%22 version%3D%221.1%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon id%3D%22Combined-Shape%22 fill%3D%22%23fe6c61%22 points%3D%228.98762301 0 0 9.12771969 0 14.519983 9 5.40479869 18 14.519983 18 9.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E' to http://embeddedandvlsidesignconference.org/technical-programme-committee/data:image/svg+xml;utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20width%3D%2210px%22%20height%3D%228px%22%20viewBox%3D%220%200%2018%2015%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon%20id%3D%22Combined-Shape%22%20fill%3D%22%23fe6c61%22%20points%3D%228.98762301%200%200%209.12771969%200%2014.519983%209%205.40479869%2018%2014.519983%2018%209.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E
+15:01:00	Warning: 	Moved Permanently for embeddedandvlsidesignconference.org/?p=2242
+15:01:00	Warning: 	File has moved from embeddedandvlsidesignconference.org/?p=2242 to http://embeddedandvlsidesignconference.org/steering-committee/
+15:01:00	Warning: 	Retry after error -4 (Incorrect length (4032551 Bytes, 7665915 expected)) at link embeddedandvlsidesignconference.org/wp-content/uploads/2020/01/Qadeer-Khan-min.pdf (from embeddedandvlsidesignconference.org/tutorial-programme/)
+15:01:13	Error: 	"Not Found" (404) at link embeddedandvlsidesignconference.org/technical-programme-committee/data:image/svg+xml;utf-8,%3C%3Fxml version%3D%221.0%22 encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE svg PUBLIC %22-%2F%2FW3C%2F%2FDTD SVG 1.1%2F%2FEN%22 %22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg width%3D%2210px%22 height%3D%228px%22 viewBox%3D%220 0 18 15%22 version%3D%221.1%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon id%3D%22Combined-Shape%22 fill%3D%22%23fe6c61%22 points%3D%228.98762301 0 0 9.12771969 0 14.519983 9 5.40479869 18 14.519983 18 9.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E (from embeddedandvlsidesignconference.org/technical-programme-committee/'data:image/svg+xml;utf-8,%3C%3Fxml version%3D%221.0%22 encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE svg PUBLIC %22-%2F%2FW3C%2F%2FDTD SVG 1.1%2F%2FEN%22 %22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg width%3D%2210px%22 height%3D%228px%22 viewBox%3D%220 0 18 15%22 version%3D%221.1%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon id%3D%22Combined-Shape%22 fill%3D%22%23fe6c61%22 points%3D%228.98762301 0 0 9.12771969 0 14.519983 9 5.40479869 18 14.519983 18 9.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E')
+
+HTTrack Website Copier/3.49-2 mirror complete in 50 minutes 47 seconds : 534 links scanned, 468 files written (77870480 bytes overall) [73515539 bytes received at 24127 bytes/sec], 7000992 bytes transferred using HTTP compression in 161 files, ratio 24%, 5.7 requests per connection
+(10 errors, 114 warnings, 0 messages)

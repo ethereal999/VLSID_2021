@@ -3,12 +3,10 @@
 --------------------------------------------------------------*/
 
 #about {
-  background: url('../img/about-bg.jpg');
   background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
-  padding: 60px 0 40px 0;
 
   @media (min-width: 1024px) {
     background-attachment: fixed;
@@ -54,5 +52,24 @@
     margin-bottom: 20px;
     color: #fff;
   }
-
+  .theme-div{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $accent-color;
+  }
+  .theme-info{
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 26px;
+    @media (max-width: 991px) {
+      font-size: 18px;
+    }
+  }
+  .theme-title{
+    padding-top: 10px;
+    @media (max-width: 991px) {
+      font-size: 28px;
+    }
+  }
 }
